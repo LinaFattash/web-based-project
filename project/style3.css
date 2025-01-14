@@ -1,0 +1,96 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.text-danger {
+    font-size: 0.9rem;
+    color: red;
+    display: none; /* Hidden initially */
+}
+
+#date_time {
+    margin: 20px auto;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 8px;
+}
+
+.navbar {
+    background-color: #3d6c4c;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar img {
+    max-height: 50px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #6b9b95;
+}
+
+.navbar .active {
+    background: #53837d;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #5c8c76;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .navbar a {
+        margin: 5px 0;
+    }
+}

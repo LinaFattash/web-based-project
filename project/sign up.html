@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+	<style>
+		body{
+			background-image: url(background.jpg);
+			background-size: cover ;
+            background-repeat: no-repeat;
+            background-position: center;
+		}
+		.login {
+  				background: #ffffff;
+ 				padding: 10px;
+  				width: 90%;
+  				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		}	
+		label {
+  				display: block;
+  				font-size: 16px;
+ 				margin: 3%;
+				text-align: right;
+		}
+
+		input[type="email"], input[type="password"] {
+  			width: 100%;
+ 			padding: 10px;
+ 			font-size: 16px;
+  			border: 1px solid #ccc;
+  			border-radius: 5px;
+  			box-sizing: border-box;
+ 			
+		}
+
+		.forgot-password {
+ 			 display: block;
+			  margin: 1rem 0;
+ 			 font-size: 14px;
+ 			 color: #007BFF;
+ 			 text-decoration: none;
+		}
+
+		.forgot-password:hover {
+  			text-decoration: underline;
+		}
+
+		.login-button {
+  			background-color: #3a7d61;
+  			color: white;
+  			font-size: 16px;
+  			border-radius: 30px;
+  			width: 100%;
+		}
+
+		.login-button:hover {
+ 			 background-color: #6b8e80;
+		}
+		.google-login:hover {
+ 			 background-color: #c6ccca;
+		}
+
+
+		.google-login {
+			width: 100%;
+  			padding: 10px 15px;
+  			font-size: 16px;
+  			border: none;
+  			border-radius: 5px;
+  			background-color: white;
+  			color: #3a7d61;
+			font-weight: bold;
+ 			border: 2px solid #5a5757;
+			border-radius: 20px;
+		}
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			
+		}
+		footer a {
+			color: white;
+			margin: 0 10px;
+			text-decoration: none;
+		}
+		footer a:hover {
+			text-decoration: underline;
+		}
+
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title> انشئ حساب</title>
+</head>
+<body>
+	<nav class="navbar" dir="rtl" >
+		<img src="logo2.png" alt="logo" width="70" height="50" >
+		<a class="brand" href="home.html">&nbsp;الصفحة الرئيسية&nbsp;</a>
+		<a class="brand" href="about us.html"> &nbsp; من نحن&nbsp;</a>		
+		<a class="brand" href="plant.html">  &nbsp;ازرامنلي &nbsp;</a>
+		<a class="brand" href="success.html"> &nbsp;قصص نجاح&nbsp;</a>
+		<a class="brand" href="Go Green.html">  &nbsp;قيمنا&nbsp;</a>
+		<a class="brand" href="contact us.html"> &nbsp; تواصل معنا&nbsp;</a>
+		<a class="brand" href="links.html"> &nbsp;مصادر اضافية &nbsp;</a>
+		<a class="brand" href="login.html"> &nbsp; تسجيل دخول&nbsp;</a> 
+		<a class="active" href="sign up.html"> &nbsp; انشاء حساب&nbsp;</a> 
+	</nav>
+
+	<div class="signup" style="width: 28%;">
+		<h1>إنشاء حساب</h1><br>	
+		<form action="/login" method="post">
+		  <label for="email" ><b>البريد الإلكتروني</b></label>
+		  <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+	
+		  <label for="password"><b>كلمة المرور</b></label>
+		  <input type="password" id="password" name="password" placeholder="**********" required>
+
+		  <label for="first-name"><b>الأسم الأول</b></label>
+		  <input type="first-name" id="first-name" name="first-name" placeholder="ادخل اسمك الأول" required style="width: 94%;">
+
+		  <label for="last-name"><b>اسم العائلة</b></label>
+		  <input type="last-name" id="last-name" name="last-name" placeholder="ادخل اسم العائلة" required style="width: 94%;"> 
+		<br>
+		
+		<br>
+		<p style="margin: 10px; font-weight: 35;">لدي حساب بالفعل؟ <a href="login.html">تسجيل دخول</a></p><br>
+		<button class="google-login">تسجيل الدخول باستخدام Google</button>
+		<br><br>
+		<button type="submit" class="login-button">إنشاء حساب</button>
+		</form>
+		
+		  <br><br><br>
+	  </div>
+	  <footer>
+		<p style="text-align: center;">© 2024 Go Green </p>
+		<a href="#">سياسة الخصوصية</a> |
+		<a href="#">شروط الاستخدام</a> |
+		<a href="contact us.html">اتصل بنا</a>
+	</footer>
+
+
+</body>
+</html>

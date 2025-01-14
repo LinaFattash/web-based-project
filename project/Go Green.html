@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>قيمنا</title>
+	<style>
+		body {
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+			background-color: #e4e8e4;
+			margin: 0;
+			padding: 0;
+		}
+
+        .navbar {
+            background-color: #3d6c4c;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+        }
+
+        .navbar {
+            background: #3d6c4c;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+  
+         .navbar img {
+         max-height: 50px;
+            margin-right: 15px;
+        }
+  
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+  
+        .navbar a:hover {
+         background: #6b9b95;
+        }
+  
+        .navbar .active {
+            background: #53837d;
+            font-weight: bold;
+        }
+
+		.container {
+			background-color: white;
+			max-width: 800px;
+			margin: 30px auto;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		}
+
+		h1, p {
+			color: #3a7d61;
+			text-align: center;
+		}
+
+
+		input[type="checkbox"],input[type="radio"] {
+			margin-left: 10px;
+			
+		}
+
+		textarea {
+			width: 80%;
+			padding: 10px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			font-size: 16px;
+			border-color: #6aa28b;
+			margin-right: 8%;
+		}
+
+	
+
+		.submit-button {
+			width: 80%;
+			padding: 15px;
+			background-color: #3a7d61;
+			color: white;
+			border: none;
+			border-radius: 8px;
+			font-size: 16px;
+			margin-right: 9%;
+		}
+
+		.submit-button:hover {
+			background-color: #6b8e80;
+		}
+
+		.checkbox label, form label {
+			color: #555;
+			font-size: 20px;
+		}
+
+		.form {
+			border: 1px solid #ddd;
+			padding: 15px;
+			margin-top: 15px;
+			border-radius: 8px;
+			background-color: #f9f9f9;
+		}
+
+		.form h3 {
+			color: #3a7d61;
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+		footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+footer a {
+	color: white;
+	margin: 0 10px;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<img src="logo2.png" alt="Logo">
+		<a class="brand" href="home.html">الصفحة الرئيسية</a>
+		<a class="brand" href="about us.html">من نحن</a>
+		<a class="brand" href="plant.html">ازرامنلي</a>
+		<a class="brand" href="success.html">قصص نجاح</a>
+		<a class="active" href="Go Green.html">قيمنا</a>
+		<a class="brand" href="contact us.html">تواصل معنا</a>
+		<a class="brand" href="links.html">مصادر إضافية</a>
+		<a class="brand" href="login.html">تسجيل دخول</a>
+		<a class="brand" href="sign up.html">إنشاء حساب</a>
+	</nav>
+
+	<div class="container">
+		<h1>استبيان تحسين الموقع</h1>
+		<p style="font-size: 20px;">نشكر زيارتك لموقعنا! ساعدنا في تحسين تجربتك من خلال هذا الاستبيان .</p>
+		
+		<form>
+			<div class="form">
+				<h3>ما هو هدفك الأساسي من زيارة الموقع؟</h3>
+				<div class="checkbox">
+					<input type="checkbox" id="chk1" name="Q1" value="نبات الزينة">
+					<label for="chk1">البحث عن معلومات تخص نبات الزينة</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="chk2" name="Q2" value="النباتات المثمرة">
+					<label for="chk2">البحث عن معلومات تخص النباتات المثمرة</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="chk3" name="Q3" value="مشاكل زراعية">
+					<label for="chk3">البحث عن حلول للمشاكل الزراعية</label>
+				</div>
+			</div>
+
+            <div class="form">
+				<h3>ماذا تفضل اكثر؟</h3>
+				<div class="checkbox">
+					<input type="checkbox" id="chk4" name="Q4" value="نبات الزينة">
+					<label for="chk4">نبات زينة داخلي</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="chk5" name="Q5" value="النباتات المثمرة">
+					<label for="chk5">نبات زينة خارجي</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="chk6" name="Q6" value="مشاكل زراعية">
+					<label for="chk6">نبات مثمر داخلي</label>
+				</div>
+                <div class="checkbox">
+					<input type="checkbox" id="chk7" name="Q7" value="مشاكل زراعية">
+					<label for="chk7">نبات مثمر داخلي</label>
+				</div>
+			</div>
+			<div class="form">
+				<h3>ماهي المجالات التي ترغب في رؤية المزيد من المعلومات عنها؟</h3>
+				<div class="checkbox">
+					<input type="checkbox" id="chk8" name="Q8" value="التربة والري">
+					<label for="chk8">التربة والري</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="chk9" name="Q9" value="الأبحاث الزراعية">
+					<label for="chk9">الأبحاث الزراعية</label>
+				</div>
+                <div class="checkbox">
+					<input type="checkbox" id="chk10" name="Q10" value=" النباتات والمحاصيل">
+					<label for="chk10">النباتات والمحاصيل</label>
+				</div>
+			</div>
+
+            <div class="form">
+				<h3>ماهي مصادر المعلومات الزراعية التي تفضلها ؟</h3>
+				<div class="checkbox">
+					<input type="checkbox" id="chk11" name="Q11" value=" الاستشارات المباشرة من الخبراء">
+					<label for="chk11">الاستشارات المباشرة من الخبراء</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="chk12" name="Q12" value=" مقاطع فيديو تعليمية">
+					<label for="chk12">مقاطع فيديو تعليمية </label>
+				</div>
+                <div class="checkbox">
+					<input type="checkbox" id="chk13" name="Q13" value=" الكتب الزراعية العلمية ">
+					<label for="chk13"> الكتب الزراعية العلمية</label>
+				</div>
+			</div>
+
+            <div class="form">
+				<h3>ما مدى رضاك عن موقعنا؟</h3>
+				
+				<div class="radio" >
+					<input type="radio"  name="Q14" value="ممتاز">
+					<label for="rad1">ممتاز   </label>
+				</div>
+                <div class="radio">
+					<input type="radio" name="Q14" value="جيد جداً ">
+					<label for="rad2"> جيد جداً</label>
+				</div>
+                <div class="radio">
+					<input type="radio"  name="Q14" value=" جيد">
+					<label for="rad3"> جيد</label>
+				</div>
+                <div class="radio">
+					<input type="radio"  name="Q14" value=" مقبول" >
+					<label for="rad4">مقبول</label>
+				</div>
+			</div>
+            <div class="form">
+				<h3>هل مهتم بإضافة كورسات الى الصفحة؟</h3>
+				<div class="radio" >
+					<input type="radio" name="Q15" value="نعم">
+                    <label for="rad4">نعم</label>
+				</div>
+                <div class="radio">
+					<input type="radio"  name="Q15" value="لا" >
+                    <label for="rad5">لا</label>
+				</div>
+
+			</div>
+			<div class="form">
+				<h3>إضافة مقترحاتك:</h3>
+				<textarea name="suggestions" rows="5" placeholder="أدخل مقترحاتك هنا..."></textarea>
+			</div>
+			<br>
+			<button type="submit" class="submit-button">إرسال التقييم</button>
+		</form>
+	</div>
+	<footer>
+		<p style="text-align: center; color: #e4e8e4;">© 2024 Go Green </p>
+		<a href="#">سياسة الخصوصية</a> |
+		<a href="#">شروط الاستخدام</a> |
+		<a href="contact us.html">اتصل بنا</a>
+	</footer>
+</body>
+</html>
